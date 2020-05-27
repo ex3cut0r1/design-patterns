@@ -16,5 +16,9 @@ public class CarMain
 		CarBrand car3 = new Brand( "Nissan" );
 		model.addCarBrand( car3 );
 		model.setCarModel( "Skyline" );
+		model.removeCarBrand( car3 );
+		CarBrand car4 = new Brand( "Toyota" );
+		model.addCarBrand( car4 );
+		model.setCarModel( "Supra" );
 	}
 }
